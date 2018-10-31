@@ -18,4 +18,14 @@ p{
     background-attachment: fixed;
     -webkit-background-clip:text;
     -webkit-text-fill-color: rgba(255, 255, 255,.05);
+    animation: maquina 5s infinite alternate steps(10000000);
+}
+
+@keyframes maquina{
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
 }
