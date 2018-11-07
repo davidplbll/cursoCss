@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="container">
+    </ul>
+    <script>
+        var contenedor=document.getElementById("container")
+        var frase="HOLA_PUTOS  :)"
+        frase=String(frase).split("").reverse().join("")
+        for( var item of frase){
+            console.log(item)
+            var li=document.createElement("li");
+            li.textContent=item;
+            contenedor.appendChild(li);
+        }
+    </script>
+</body>
+</html>
