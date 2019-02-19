@@ -1,10 +1,9 @@
 setInterval(() => {
-    
     const text = baffle(".data");
     text.set({
-        characters:'▒░▒░ ░▒// ░>█ ░░█/ ▓▓▓█▓ /█▓ <<▓▓< ▓░▓▓▓ █/▓',
-        speed:120,
+        characters:'❤☆✿♫❤☆✿♫',
+        speed:130,
     });
     text.start();
-    text.reveal(4000);
-}, 1000);
+    text.reveal(3000);
+}, 2000);
